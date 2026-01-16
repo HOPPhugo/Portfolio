@@ -1,0 +1,47 @@
+
+@font-face {
+    font-family: Minecraft ;
+    src: url(MinecraftRegular-Bmg3.otf);
+}
+body {
+    background-color: #242423;
+    color: #F5CB5C;
+    font-family: Minecraft
+}
+.infos {
+    text-align: center;
+}
+#par {
+    font-size: 20px;
+}
+.Languages {
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+}
+.CsharpF {
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color:#363636;
+    border-radius: 20px;
+    border-style:groove;
+    
+}
+.CsharpC {
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color:#363636;
+    border-radius: 20px;
+    border-style:groove;
+}
+#codes {
+    text-decoration:underline;
+}
+#Console {
+    
+    text-decoration:underline;
+}
